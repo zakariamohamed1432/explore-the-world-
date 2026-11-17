@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore The World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">Explore<span>.</span></div>
+            <nav class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Destinations</a>
+                <a href="#">About Us</a>
+            </nav>
+            <button class="explore-btn-top">Explore Now</button>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <span class="subtitle">YOUR NEXT ADVENTURE</span>
+            <h1>Explore <span class="highlight">The World</span> With Us</h1>
+            <p>Discover some of the most beautiful cities in the world, experience new cultures, and create unforgettable memories.</p>
+            <button class="start-btn">Get Started</button>
+        </section>
+
+        <!-- Destinations Section -->
+        <section class="destinations-section">
+            <div class="section-header">
+                <h2>Popular Destinations</h2>
+                <p>Explore some of the most beautiful cities in the world.</p>
+            </div>
+
+            <div class="slider-container">
+                <div class="card">
+                    <div class="card-image-container">
+                        <img id="dest-img" src="" alt="Destination Image">
+                        <div class="destination-badge">
+                            <span class="dest-label">DESTINATION</span>
+                            <span id="dest-number" class="dest-num">01</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="progress-text" class="progress-indicator">01 / 04</div>
+                        <span id="dest-country" class="country-tag">FRANCE</span>
+                        <h3 id="dest-title">Paris</h3>
+                        <p id="dest-desc">Paris is one of the most beautiful cities in the world, famous for its art, architecture and romantic atmosphere.</p>
+                        
+                        <div class="info-grid">
+                            <div>
+                                <span class="info-label">Continent</span>
+                                <span id="info-continent" class="info-value">Europe</span>
+                            </div>
+                            <div>
+                                <span class="info-label">Famous Food</span>
+                                <span id="info-food" class="info-value">Croissant, Macarons</span>
+                            </div>
+                            <div>
+                                <span class="info-label">Famous Place</span>
+                                <span id="info-place" class="info-value">Eiffel Tower</span>
+                            </div>
+                            <div>
+                                <span class="info-label">Language</span>
+                                <span id="info-lang" class="info-value">French</span>
+                            </div>
+                        </div>
+
+                        <button class="explore-more-btn">Explore More</button>
+                    </div>
+                </div>
+
+                <!-- Slider Navigation -->
+                <div class="slider-nav">
+                    <button id="prev-btn" class="nav-action-btn">← Previous</button>
+                    <div id="dots-container" class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button id="next-btn" class="nav-action-btn next">Next →</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
